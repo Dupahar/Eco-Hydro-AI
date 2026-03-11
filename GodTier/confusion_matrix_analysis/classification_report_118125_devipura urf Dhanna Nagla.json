@@ -1,0 +1,58 @@
+{
+  "multiclass": {
+    "accuracy": 0.999938,
+    "cohen_kappa": 0.8350826331234531,
+    "precision_weighted": 0.999935723076923,
+    "recall_weighted": 0.999938,
+    "f1_weighted": 0.9999367619007612,
+    "per_class": [
+      {
+        "Class": "Dry",
+        "Precision": 1.0,
+        "Recall": 0.9999959992558616,
+        "F1-Score": 0.9999979996239293,
+        "Support": 499907
+      },
+      {
+        "Class": "Low Risk",
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1-Score": 0.0,
+        "Support": 2
+      },
+      {
+        "Class": "Moderate",
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1-Score": 0.0,
+        "Support": 3
+      },
+      {
+        "Class": "High",
+        "Precision": 0.48148148148148145,
+        "Recall": 0.48148148148148145,
+        "F1-Score": 0.48148148148148145,
+        "Support": 27
+      },
+      {
+        "Class": "Extreme",
+        "Precision": 0.7846153846153846,
+        "Recall": 0.8360655737704918,
+        "F1-Score": 0.8095238095238095,
+        "Support": 61
+      }
+    ]
+  },
+  "regression": {
+    "mae_meters": 0.0001228753535542637,
+    "mae_cm": 0.012287535704672337,
+    "rmse_meters": 0.01085300650447607,
+    "r2_score": 0.9120994806289673
+  },
+  "binary": {
+    "accuracy": 0.999946,
+    "precision": 0.775,
+    "recall": 1.0,
+    "f1_score": 0.8732394366197183
+  }
+}

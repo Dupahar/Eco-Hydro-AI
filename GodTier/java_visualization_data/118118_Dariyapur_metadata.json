@@ -1,0 +1,13 @@
+{
+  "villageName": "118118_Dariyapur",
+  "surveyId": "118118",
+  "dataSource": "SVAMITVA Program",
+  "modelAccuracy": "3.3cm MAE",
+  "terrainResolution": "5.0m",
+  "totalNodes": 14616,
+  "floodStatistics": {
+    "maxDepth": 4.314604265513528,
+    "meanDepth": 0.8071748246499804,
+    "floodedPercent": 51.847290640394085
+  }
+}

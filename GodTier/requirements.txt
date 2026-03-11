@@ -1,0 +1,29 @@
+# GOD-TIER Flood GNN Requirements
+# Install with: pip install -r requirements.txt
+
+# PyTorch (adjust CUDA version as needed)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# PyTorch Geometric
+torch-geometric>=2.3.0
+torch-scatter>=2.1.0
+torch-sparse>=0.6.17
+torch-cluster>=1.6.1
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+numpy>=1.24.0
+
+# Utilities
+tqdm>=4.65.0
+pandas>=2.0.0
+
+# Optional but recommended
+# tensorboard>=2.12.0  # For advanced logging
+# wandb>=0.15.0        # For experiment tracking

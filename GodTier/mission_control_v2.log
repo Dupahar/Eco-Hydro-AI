@@ -1,0 +1,151 @@
+2026-02-10 14:28:08,755 [INFO] --- GOD-TIER V2 STARTED ---
+2026-02-10 14:28:08,755 [INFO] Profile: WORKSTATION_128GB
+2026-02-10 14:28:08,838 [INFO] 
+>>> EXECUTING: Phase 1: Sonata Logic
+2026-02-10 14:28:08,882 [INFO] [SUCCESS] Phase 1: Sonata Logic
+2026-02-10 14:28:09,028 [INFO] [STATE] Marked 'Phase 1: Sonata Logic' as COMPLETE.
+2026-02-10 14:28:09,028 [INFO] 
+>>> EXECUTING: Phase 2: High-Perf Ingestion
+2026-02-10 15:12:03,364 [INFO] ======================================================================
+2026-02-10 15:12:03,364 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-10 15:12:03,364 [INFO]   Profile: WORKSTATION_128GB
+2026-02-10 15:12:03,364 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-10 15:12:03,364 [INFO] ======================================================================
+2026-02-10 15:12:03,380 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-10 15:12:03,380 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-10 15:12:03,380 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-10 15:26:19,174 [INFO] [SUCCESS] Phase 3: Graph Construction (14.3 min)
+2026-02-10 15:26:19,209 [INFO] [STATE] Marked 'Phase 3: Graph Construction' as COMPLETE.
+2026-02-10 15:26:19,209 [INFO] 
+>>> EXECUTING: Phase 4: GNN Training
+2026-02-10 15:28:43,539 [INFO] [FAIL] Phase 4: GNN Training (Exit Code 1) after 2.4 min
+2026-02-10 15:28:43,539 [INFO] Mission Paused. Fix error and re-run to resume.
+2026-02-10 15:45:10,255 [INFO] ======================================================================
+2026-02-10 15:45:10,255 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-10 15:45:10,255 [INFO]   Profile: WORKSTATION_128GB
+2026-02-10 15:45:10,255 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-10 15:45:10,255 [INFO] ======================================================================
+2026-02-10 15:45:10,255 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-10 15:45:10,255 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-10 15:45:10,255 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-10 16:03:30,402 [INFO] ======================================================================
+2026-02-10 16:03:30,402 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-10 16:03:30,402 [INFO]   Profile: WORKSTATION_128GB
+2026-02-10 16:03:30,402 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-10 16:03:30,402 [INFO] ======================================================================
+2026-02-10 16:03:30,402 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-10 16:03:30,402 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-10 16:03:30,402 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-10 16:24:25,905 [INFO] [SUCCESS] Phase 3: Graph Construction (20.9 min)
+2026-02-10 16:24:26,059 [INFO] [STATE] Marked 'Phase 3: Graph Construction' as COMPLETE.
+2026-02-10 16:24:26,068 [INFO] 
+>>> EXECUTING: Phase 4: GNN Training
+2026-02-10 16:29:56,462 [INFO] [FAIL] Phase 4: GNN Training (Exit Code 1) after 5.5 min
+2026-02-10 16:29:56,573 [INFO] Mission Paused. Fix error and re-run to resume.
+2026-02-11 10:33:04,125 [INFO] ======================================================================
+2026-02-11 10:33:04,411 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 10:33:04,411 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 10:33:04,411 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 10:33:04,411 [INFO] ======================================================================
+2026-02-11 10:33:04,427 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 10:33:04,427 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 10:33:04,427 [INFO] [RESUME] Skipping Phase 3: Graph Construction (Already Complete)
+2026-02-11 10:33:04,427 [INFO] 
+>>> EXECUTING: Phase 4: GNN Training
+2026-02-11 10:33:40,230 [INFO] ======================================================================
+2026-02-11 10:33:40,230 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 10:33:40,230 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 10:33:40,230 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 10:33:40,230 [INFO] ======================================================================
+2026-02-11 10:33:40,238 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 10:33:40,238 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 10:33:40,238 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-11 10:33:40,278 [INFO] [FAIL] Phase 3: Graph Construction (Exit Code 1) after 0.0 min
+2026-02-11 10:33:40,278 [INFO] Mission Paused. Fix error and re-run to resume.
+2026-02-11 10:33:56,975 [INFO] ======================================================================
+2026-02-11 10:33:56,975 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 10:33:56,975 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 10:33:56,975 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 10:33:56,975 [INFO] ======================================================================
+2026-02-11 10:33:56,985 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 10:33:56,985 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 10:33:56,985 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-11 10:33:57,023 [INFO] [FAIL] Phase 3: Graph Construction (Exit Code 1) after 0.0 min
+2026-02-11 10:33:57,023 [INFO] Mission Paused. Fix error and re-run to resume.
+2026-02-11 10:46:45,531 [INFO] ======================================================================
+2026-02-11 10:46:45,531 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 10:46:45,531 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 10:46:45,531 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 10:46:45,531 [INFO] ======================================================================
+2026-02-11 10:46:45,531 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 10:46:45,531 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 10:46:45,531 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-11 10:46:51,845 [INFO] [FAIL] Phase 3: Graph Construction (Exit Code 1) after 0.1 min
+2026-02-11 10:46:51,845 [INFO] Mission Paused. Fix error and re-run to resume.
+2026-02-11 10:54:57,562 [INFO] ======================================================================
+2026-02-11 10:54:57,562 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 10:54:57,562 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 10:54:57,562 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 10:54:57,562 [INFO] ======================================================================
+2026-02-11 10:54:57,562 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 10:54:57,562 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 10:54:57,562 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-11 11:08:50,544 [INFO] [SUCCESS] Phase 3: Graph Construction (13.9 min)
+2026-02-11 11:08:50,603 [INFO] [STATE] Marked 'Phase 3: Graph Construction' as COMPLETE.
+2026-02-11 11:08:50,603 [INFO] 
+>>> EXECUTING: Phase 4: GNN Training
+2026-02-11 13:35:36,129 [INFO] ======================================================================
+2026-02-11 13:35:36,129 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 13:35:36,131 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 13:35:36,131 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 13:35:36,131 [INFO] ======================================================================
+2026-02-11 13:35:36,137 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 13:35:36,137 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 13:35:36,137 [INFO] [RESUME] Skipping Phase 3: Graph Construction (Already Complete)
+2026-02-11 13:35:36,137 [INFO] 
+>>> EXECUTING: Phase 4: GNN Training
+2026-02-11 13:35:39,984 [INFO] [FAIL] Phase 4: GNN Training (Exit Code 1) after 0.1 min
+2026-02-11 13:35:39,984 [INFO] Mission Paused. Fix error and re-run to resume.
+2026-02-11 13:36:05,139 [INFO] ======================================================================
+2026-02-11 13:36:05,139 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 13:36:05,139 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 13:36:05,139 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 13:36:05,139 [INFO] ======================================================================
+2026-02-11 13:36:05,141 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 13:36:05,141 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 13:36:05,141 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-11 13:46:54,050 [INFO] ======================================================================
+2026-02-11 13:46:54,050 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 13:46:54,050 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 13:46:54,050 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 13:46:54,050 [INFO] ======================================================================
+2026-02-11 13:46:54,050 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 13:46:54,050 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 13:46:54,066 [INFO] 
+>>> EXECUTING: Phase 3: Graph Construction
+2026-02-11 14:06:01,458 [INFO] [SUCCESS] Phase 3: Graph Construction (19.1 min)
+2026-02-11 14:06:01,506 [INFO] [STATE] Marked 'Phase 3: Graph Construction' as COMPLETE.
+2026-02-11 14:06:01,506 [INFO] 
+>>> EXECUTING: Phase 4: GNN Training
+2026-02-11 14:06:19,206 [INFO] [FAIL] Phase 4: GNN Training (Exit Code 1) after 0.3 min
+2026-02-11 14:06:19,206 [INFO] Mission Paused. Fix error and re-run to resume.
+2026-02-11 14:22:58,198 [INFO] ======================================================================
+2026-02-11 14:22:58,198 [INFO]   GOD-TIER V2 MISSION — BEAST MODE (2.1-BEAST)
+2026-02-11 14:22:58,198 [INFO]   Profile: WORKSTATION_128GB
+2026-02-11 14:22:58,198 [INFO]   Epochs: 100 | Voxel: 0.25m
+2026-02-11 14:22:58,198 [INFO] ======================================================================
+2026-02-11 14:22:58,198 [INFO] [RESUME] Skipping Phase 1: Sonata Logic (Already Complete)
+2026-02-11 14:22:58,198 [INFO] [RESUME] Skipping Phase 2: High-Perf Ingestion (Already Complete)
+2026-02-11 14:22:58,198 [INFO] [RESUME] Skipping Phase 3: Graph Construction (Already Complete)
+2026-02-11 14:22:58,198 [INFO] 
+>>> EXECUTING: Phase 4: GNN Training
+2026-02-11 14:23:14,388 [INFO] [FAIL] Phase 4: GNN Training (Exit Code 1) after 0.3 min
+2026-02-11 14:23:14,388 [INFO] Mission Paused. Fix error and re-run to resume.

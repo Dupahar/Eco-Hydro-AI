@@ -1,0 +1,58 @@
+{
+  "multiclass": {
+    "accuracy": 0.616138,
+    "cohen_kappa": 0.3677710661869511,
+    "precision_weighted": 0.6155329997840551,
+    "recall_weighted": 0.616138,
+    "f1_weighted": 0.5947373905921308,
+    "per_class": [
+      {
+        "Class": "Dry",
+        "Precision": 0.8362952437193967,
+        "Recall": 0.9999963222313758,
+        "F1-Score": 0.910848999718608,
+        "Support": 271904
+      },
+      {
+        "Class": "Low Risk",
+        "Precision": 0.0007825850861642151,
+        "Recall": 0.001235314879241668,
+        "F1-Score": 0.0009581634548636572,
+        "Support": 39666
+      },
+      {
+        "Class": "Moderate",
+        "Precision": 0.02078835703119184,
+        "Recall": 0.020488270144353345,
+        "F1-Score": 0.02063722275082909,
+        "Support": 54519
+      },
+      {
+        "Class": "High",
+        "Precision": 0.39936134883126834,
+        "Recall": 0.17176100905335326,
+        "F1-Score": 0.2402102012123447,
+        "Support": 91016
+      },
+      {
+        "Class": "Extreme",
+        "Precision": 0.9992260860592302,
+        "Recall": 0.45149784357151185,
+        "F1-Score": 0.62196316457119,
+        "Support": 42895
+      }
+    ]
+  },
+  "regression": {
+    "mae_meters": 0.25562867522239685,
+    "mae_cm": 25.562868118286133,
+    "rmse_meters": 0.3907798230648041,
+    "r2_score": 0.7995854616165161
+  },
+  "binary": {
+    "accuracy": 0.93781,
+    "precision": 0.999857331383529,
+    "recall": 0.878340324368359,
+    "f1_score": 0.9351678297329361
+  }
+}

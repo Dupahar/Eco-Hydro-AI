@@ -1,0 +1,262 @@
+PS E:\DTM\Data\GodTier> python .\confusion_matrix_analysis.py
+C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch_geometric\__init__.py:4: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: [WinError 127] The specified procedure could not be found
+  import torch_geometric.typing
+C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch_geometric\__init__.py:4: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: [WinError 127] The specified procedure could not be found
+  import torch_geometric.typing
+C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch_geometric\__init__.py:4: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: [WinError 127] The specified procedure could not be found
+  import torch_geometric.typing
+
+================================================================================
+   📊 CONFUSION MATRIX & CLASSIFICATION ANALYSIS
+   Comprehensive Model Evaluation
+================================================================================
+
+================================================================================
+   📊 CONFUSION MATRIX ANALYZER
+================================================================================
+  Device: cuda
+  GPU: NVIDIA RTX A2000 12GB
+================================================================================
+
+🧠 Loading Trained Model...
+  ✓ Found: final_outputs\checkpoints\best_model.pt
+  ✓ Model loaded successfully!
+
+
+📁 Found 3 villages to analyze
+
+
+================================================================================
+  VILLAGE 1/3: 118118_Dariyapur_POINT CLOUD_WITH_FLOOD.pt
+================================================================================
+
+📊 Evaluating: 118118_Dariyapur_POINT CLOUD_WITH_FLOOD.pt
+  Nodes: 7,069,159
+  Subsampling to 500,000 points...
+  Edges retained: 1,130,634 / 226,213,088
+  Running predictions...
+  Graph on device: 500000 nodes, 1130634 edges
+  ✓ Predictions complete
+    True flooded: 254,571 points (50.9%)
+    Pred flooded: 223,595 points (44.7%)
+
+================================================================================
+  GENERATING COMPREHENSIVE REPORT: 118118_Dariyapur
+================================================================================
+
+1. Creating multi-class confusion matrix...
+  ✓ Saved: confusion_matrix_118118_Dariyapur.png
+
+2. Creating normalized confusion matrix...
+  ✓ Saved: confusion_matrix_normalized_118118_Dariyapur.png
+
+3. Creating confusion matrix with metrics...
+  ✓ Saved: confusion_matrix_with_metrics_118118_Dariyapur.png
+
+4. Creating binary confusion matrix...
+  ✓ Saved: confusion_matrix_binary_118118_Dariyapur.png
+
+4. Generating classification metrics...
+
+================================================================================
+  CLASSIFICATION REPORT
+================================================================================
+
+Overall Accuracy: 61.73%
+Cohen's Kappa: 0.3686
+
+--------------------------------------------------------------------------------
+Class           Precision    Recall       F1-Score     Support
+--------------------------------------------------------------------------------
+Dry                 83.71%     100.00%      91.13%     272,562
+Low Risk             0.08%       0.13%       0.10%      39,678
+Moderate             2.19%       2.17%       2.18%      54,238
+High                40.03%      17.12%      23.99%      90,877
+Extreme             99.98%      45.31%      62.36%      42,645
+--------------------------------------------------------------------------------
+Weighted Avg        61.68%      61.73%      59.60%
+================================================================================
+
+REGRESSION METRICS (Depth Prediction):
+--------------------------------------------------------------------------------
+MAE (Mean Absolute Error):  0.2549 m (25.49 cm)
+RMSE (Root Mean Squared):   0.3901 m (39.01 cm)
+R² Score:                   0.8001
+================================================================================
+
+BINARY CLASSIFICATION (Flooded vs Not Flooded):
+--------------------------------------------------------------------------------
+Accuracy:   93.79%
+Precision:  99.98%
+Recall:     87.82%
+F1-Score:   93.51%
+================================================================================
+
+  ✓ Saved: classification_report_118118_Dariyapur.json
+
+5. Creating summary visualization...
+  ✓ Saved: summary_118118_Dariyapur.png
+
+================================================================================
+  VILLAGE 2/3: 118125_devipura urf Dhanna Nagla_POINT CLOUD_WITH_FLOOD.pt
+================================================================================
+
+📊 Evaluating: 118125_devipura urf Dhanna Nagla_POINT CLOUD_WITH_FLOOD.pt
+  Nodes: 7,303,843
+  Subsampling to 500,000 points...
+  Edges retained: 1,094,240 / 233,722,976
+  Running predictions...
+  Graph on device: 500000 nodes, 1094240 edges
+  ✓ Predictions complete
+    True flooded: 111 points (0.0%)
+    Pred flooded: 130 points (0.0%)
+
+================================================================================
+  GENERATING COMPREHENSIVE REPORT: 118125_devipura urf Dhanna Nagla
+================================================================================
+
+1. Creating multi-class confusion matrix...
+  ✓ Saved: confusion_matrix_118125_devipura urf Dhanna Nagla.png
+
+2. Creating normalized confusion matrix...
+  ✓ Saved: confusion_matrix_normalized_118125_devipura urf Dhanna Nagla.png
+
+3. Creating confusion matrix with metrics...
+  ✓ Saved: confusion_matrix_with_metrics_118125_devipura urf Dhanna Nagla.png
+
+4. Creating binary confusion matrix...
+  ✓ Saved: confusion_matrix_binary_118125_devipura urf Dhanna Nagla.png
+
+4. Generating classification metrics...
+
+================================================================================
+  CLASSIFICATION REPORT
+================================================================================
+
+Overall Accuracy: 99.99%
+Cohen's Kappa: 0.8454
+
+--------------------------------------------------------------------------------
+Class           Precision    Recall       F1-Score     Support
+--------------------------------------------------------------------------------
+Dry                100.00%     100.00%     100.00%     499,890
+Low Risk             0.00%       0.00%       0.00%           3
+Moderate             0.00%       0.00%       0.00%           4
+High                66.67%      43.24%      52.46%          37
+Extreme             76.54%      93.94%      84.35%          66
+--------------------------------------------------------------------------------
+Weighted Avg        99.99%      99.99%      99.99%
+================================================================================
+
+REGRESSION METRICS (Depth Prediction):
+--------------------------------------------------------------------------------
+MAE (Mean Absolute Error):  0.0001 m (0.01 cm)
+RMSE (Root Mean Squared):   0.0103 m (1.03 cm)
+R² Score:                   0.9260
+================================================================================
+
+BINARY CLASSIFICATION (Flooded vs Not Flooded):
+--------------------------------------------------------------------------------
+Accuracy:   100.00%
+Precision:  84.62%
+Recall:     99.10%
+F1-Score:   91.29%
+================================================================================
+
+  ✓ Saved: classification_report_118125_devipura urf Dhanna Nagla.json
+
+5. Creating summary visualization...
+  ✓ Saved: summary_118125_devipura urf Dhanna Nagla.png
+
+================================================================================
+  VILLAGE 3/3: 118129_Manjhola Khurd_POINT CLOUD_WITH_FLOOD.pt
+================================================================================
+
+📊 Evaluating: 118129_Manjhola Khurd_POINT CLOUD_WITH_FLOOD.pt
+  Nodes: 7,759,090
+  Subsampling to 500,000 points...
+  Edges retained: 1,033,904 / 248,290,880
+  Running predictions...
+  Graph on device: 500000 nodes, 1033904 edges
+  ✓ Predictions complete
+    True flooded: 28 points (0.0%)
+    Pred flooded: 77 points (0.0%)
+
+================================================================================
+  GENERATING COMPREHENSIVE REPORT: 118129_Manjhola Khurd
+================================================================================
+
+1. Creating multi-class confusion matrix...
+  ✓ Saved: confusion_matrix_118129_Manjhola Khurd.png
+
+2. Creating normalized confusion matrix...
+E:\DTM\Data\GodTier\confusion_matrix_analysis.py:284: RuntimeWarning: invalid value encountered in divide
+  cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+  ✓ Saved: confusion_matrix_normalized_118129_Manjhola Khurd.png
+
+3. Creating confusion matrix with metrics...
+E:\DTM\Data\GodTier\confusion_matrix_analysis.py:347: RuntimeWarning: invalid value encountered in divide
+  cm_norm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+  ✓ Saved: confusion_matrix_with_metrics_118129_Manjhola Khurd.png
+
+4. Creating binary confusion matrix...
+  ✓ Saved: confusion_matrix_binary_118129_Manjhola Khurd.png
+
+4. Generating classification metrics...
+
+================================================================================
+  CLASSIFICATION REPORT
+================================================================================
+
+Overall Accuracy: 100.00%
+Cohen's Kappa: 0.9298
+
+--------------------------------------------------------------------------------
+Class           Precision    Recall       F1-Score     Support
+--------------------------------------------------------------------------------
+Dry                100.00%     100.00%     100.00%     499,972
+Low Risk             0.00%       0.00%       0.00%           0
+Moderate           100.00%      25.00%      40.00%           4
+High                88.89%     100.00%      94.12%          24
+--------------------------------------------------------------------------------
+Weighted Avg       100.00%     100.00%     100.00%
+================================================================================
+
+REGRESSION METRICS (Depth Prediction):
+--------------------------------------------------------------------------------
+MAE (Mean Absolute Error):  0.0001 m (0.01 cm)
+RMSE (Root Mean Squared):   0.0063 m (0.63 cm)
+R² Score:                   0.9388
+================================================================================
+
+BINARY CLASSIFICATION (Flooded vs Not Flooded):
+--------------------------------------------------------------------------------
+Accuracy:   99.99%
+Precision:  36.36%
+Recall:     100.00%
+F1-Score:   53.33%
+================================================================================
+
+  ✓ Saved: classification_report_118129_Manjhola Khurd.json
+
+5. Creating summary visualization...
+E:\DTM\Data\GodTier\confusion_matrix_analysis.py:667: RuntimeWarning: invalid value encountered in divide
+  cm_norm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+  ✓ Saved: summary_118129_Manjhola Khurd.png
+
+================================================================================
+   ✅ ANALYSIS COMPLETE!
+================================================================================
+
+📁 All outputs saved to: E:\DTM\Data\GodTier\confusion_matrix_analysis
+
+Generated files:
+  📊 confusion_matrix_*.png - Multi-class confusion matrices
+  📊 confusion_matrix_normalized_*.png - Normalized by recall
+  📊 confusion_matrix_binary_*.png - Binary classification
+  📊 summary_*.png - 4-panel comprehensive view
+  📄 classification_report_*.json - Detailed metrics
+  📄 all_villages_report.json - Combined report
+================================================================================
+
+PS E:\DTM\Data\GodTier>

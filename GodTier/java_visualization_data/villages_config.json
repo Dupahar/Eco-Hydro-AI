@@ -1,0 +1,22 @@
+{
+  "villages": [
+    {
+      "name": "118118_Dariyapur",
+      "terrainFile": "118118_Dariyapur_terrain.json",
+      "floodFile": "118118_Dariyapur_flood.json",
+      "metadataFile": "118118_Dariyapur_metadata.json"
+    },
+    {
+      "name": "118125_devipura_urf_Dhanna_Nagla",
+      "terrainFile": "118125_devipura_urf_Dhanna_Nagla_terrain.json",
+      "floodFile": "118125_devipura_urf_Dhanna_Nagla_flood.json",
+      "metadataFile": "118125_devipura_urf_Dhanna_Nagla_metadata.json"
+    },
+    {
+      "name": "118129_Manjhola_Khurd",
+      "terrainFile": "118129_Manjhola_Khurd_terrain.json",
+      "floodFile": "118129_Manjhola_Khurd_flood.json",
+      "metadataFile": "118129_Manjhola_Khurd_metadata.json"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+/* Eco-Hydro-AI Platform - Stylesheet */
+
+.root {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-background-color: #1a1a1a;
+}
+
+/* Buttons */
+.button {
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 8 16;
+    -fx-font-size: 12px;
+}
+
+.button:hover {
+    -fx-opacity: 0.9;
+}
+
+.button:pressed {
+    -fx-opacity: 0.8;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #3a3a3a;
+    -fx-background-radius: 5;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #2a2a2a;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #065A82;
+}
+
+/* Sliders */
+.slider .track {
+    -fx-background-color: #4a4a4a;
+}
+
+.slider .thumb {
+    -fx-background-color: #1C7293;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #065A82;
+}
+
+/* CheckBox */
+.check-box {
+    -fx-text-fill: white;
+}
+
+.check-box .box {
+    -fx-background-color: #3a3a3a;
+    -fx-border-color: #065A82;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #1C7293;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: white;
+}
+
+/* Separator */
+.separator .line {
+    -fx-border-color: #065A82;
+    -fx-border-width: 1 0 0 0;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #2a2a2a;
+}
+
+.scroll-bar {
+    -fx-background-color: #2a2a2a;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #4a4a4a;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #5a5a5a;
+}
+
+/* Tooltips */
+.tooltip {
+    -fx-background-color: #2a2a2a;
+    -fx-text-fill: white;
+    -fx-border-color: #065A82;
+    -fx-border-width: 1;
+    -fx-font-size: 11px;
+}

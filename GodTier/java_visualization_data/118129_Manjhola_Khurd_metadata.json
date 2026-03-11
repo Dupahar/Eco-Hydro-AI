@@ -1,0 +1,13 @@
+{
+  "villageName": "118129_Manjhola_Khurd",
+  "surveyId": "118129",
+  "dataSource": "SVAMITVA Program",
+  "modelAccuracy": "3.3cm MAE",
+  "terrainResolution": "5.0m",
+  "totalNodes": 21684,
+  "floodStatistics": {
+    "maxDepth": 0.5667895805544969,
+    "meanDepth": 0.1983284647167325,
+    "floodedPercent": 0.018446781036709093
+  }
+}

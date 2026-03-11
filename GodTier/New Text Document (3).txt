@@ -1,0 +1,199 @@
+PS E:\DTM\Data\GodTier> python .\export_for_java.py
+C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch_geometric\__init__.py:4: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: [WinError 127] The specified procedure could not be found
+  import torch_geometric.typing
+C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch_geometric\__init__.py:4: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: [WinError 127] The specified procedure could not be found
+  import torch_geometric.typing
+C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch_geometric\__init__.py:4: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: [WinError 127] The specified procedure could not be found
+  import torch_geometric.typing
+
+================================================================================
+   📊 PYTHON-TO-JAVA DATA EXPORTER
+   Converting AI Predictions for Java Visualization
+================================================================================
+
+================================================================================
+   🧠 LOADING TRAINED FLOOD PREDICTION MODEL
+================================================================================
+  Device: cuda
+  GPU: NVIDIA RTX A2000 12GB
+================================================================================
+
+🔍 Searching for trained model...
+  ✓ Found: final_outputs\checkpoints\best_model.pt
+  ✓ Model loaded successfully!
+
+
+📁 Found 3 villages to export
+
+
+================================================================================
+  VILLAGE 1/3
+================================================================================
+
+📊 Processing: 118118_Dariyapur_POINT CLOUD_WITH_FLOOD.pt
+  Nodes: 7,069,159
+  Subsampling to 50,000 points...
+  Running AI predictions...
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [32,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [33,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553Traceback (most recent call last):
+: block: [22,0,0], thread: [34,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [35,0  File "E:\DTM\Data\GodTier\export_for_java.py", line 435, in <module>
+,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [36,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [37,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+    main()
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [38,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [39,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [40,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [41,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [42,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [43,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [44,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [45,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [46,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [47,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [48,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [49,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+  File "E:\DTM\Data\GodTier\export_for_java.py", line 370, in main
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [50,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [51,0,0    positions, depths, velocities = predictor.predict_village(
+  File "E:\DTM\Data\GodTier\export_for_java.py", line 144, in predict_village
+] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [52,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [53,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [54,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [55,0    depth, velocity = self.model(batch.x, batch.edge_index, batch.edge_attr)
+,0] Assertion `srcIndex < srcSelectDimSize  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [56,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [57,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [58,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [59,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [60,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [61,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [62,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [63,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [0,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [1,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [2,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [3,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [4,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [5,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [6,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [7,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [8,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [9,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [10,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [11,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [12,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [13,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [14,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [15,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [16,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [17,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [18,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [19,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [20,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [21,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [22,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [23,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [24,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [25,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [26,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [27,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [28,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [29,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [30,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [22,0,0], thread: [31,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [96,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [97,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [98,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [99,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [100,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [101,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [102,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [103,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [104,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [105,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [106,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [107,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [108,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [109,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [110,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [111,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [112,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [113,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [114,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [115,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [116,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [117,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [118,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0    return self._call_impl(*args, **kwargs)
+,0], thread: [119,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [120,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [121,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [122,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [123,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [124,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [125,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [126,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [23,0,0], thread: [127,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [32,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [33,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [34,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [35,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [36,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [37,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [38,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [39,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [40,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [41,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [42,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [43,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [44,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [45,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [46,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [47,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [48,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [49,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [50,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [51,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [52,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [53,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [54,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [55,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [56,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [57,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+    return forward_call(*args, **kwargs)
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [58,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [59,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [60,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [61,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [62,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cuda\Indexing.cu:1553: block: [2,0,0], thread: [63,0,0] Assertion `srcIndex < srcSelectDimSize` failed.
+  File "E:\DTM\Data\GodTier\flood_gnn_model.py", line 106, in forward
+    h_new = checkpoint(mp_layer, h, edge_index, edge_attr, use_reentrant=False)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_compile.py", line 51, in inner
+    return disable_fn(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_dynamo\eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\checkpoint.py", line 495, in checkpoint
+    ret = function(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "E:\DTM\Data\GodTier\flood_gnn_model.py", line 27, in forward
+    return self.propagate(edge_index, x=x, edge_attr=edge_attr)
+  File "C:\Users\user\AppData\Local\Temp\flood_gnn_model_DepthMP_propagate_o33krn9c.py", line 183, in propagate
+    out = self.message(
+  File "E:\DTM\Data\GodTier\flood_gnn_model.py", line 31, in message
+    return self.mlp(torch.cat([x_j, edge_attr], dim=1))
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+PS E:\DTM\Data\GodTier>

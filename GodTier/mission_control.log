@@ -1,0 +1,186 @@
+2026-02-04 16:45:19,871 [INFO] 🌟 GOD-TIER STATION INITIALIZED 🌟
+2026-02-04 16:45:19,872 [INFO] Logging active: mission_control.log
+2026-02-04 16:45:19,873 [INFO] 
+🚀 STARTING: Ingestion
+2026-02-04 16:45:19,874 [INFO] ✅ Generated Ingest Script: ingest_data_full_scale.py
+2026-02-04 16:45:19,875 [INFO] ✅ Generated Fixed Model: flood_gnn_model.py
+[Ingestion] Traceback (most recent call last):
+[Ingestion]   File "C:\Users\mahaj\Downloads\DTM\Data\GodTier\ingest_data_full_scale.py", line 1, in <module>
+[Ingestion]     import pdal
+[Ingestion] ModuleNotFoundError: No module named 'pdal'
+2026-02-04 16:45:20,106 [INFO] ❌ Ingestion FAILED (Code 1)
+2026-02-04 16:45:20,106 [INFO] 
+🚀 STARTING: Graph Build
+2026-02-04 16:45:20,108 [INFO] ✅ Generated Graph Script: process_graph_full_scale.py
+2026-02-04 16:45:20,109 [INFO] ✅ Generated Fixed Model: flood_gnn_model.py
+2026-02-04 16:45:24,769 [INFO] ❌ Graph Build FAILED (Code 3221225786)
+2026-02-04 18:46:26,263 [INFO] 🌟 GOD-TIER STATION INITIALIZED 🌟
+2026-02-04 18:46:26,263 [INFO] Logging active: mission_control.log
+2026-02-04 18:46:26,264 [INFO] 
+🚀 STARTING: Ingestion
+2026-02-04 18:46:26,265 [INFO] ✅ Generated Ingest Script: ingest_data_full_scale.py
+2026-02-05 15:00:13,016 [INFO] 🌟 GOD-TIER STATION INITIALIZED 🌟
+2026-02-05 15:00:13,028 [INFO] Logging active: mission_control.log
+2026-02-05 15:00:13,028 [INFO] 
+🚀 STARTING: Ingestion
+[Ingestion] Reading 209266NAGEPUR.laz...
+[Ingestion] Filtering 209266NAGEPUR.laz (SOR)...
+[Ingestion] Reading 209311SAJOI_209312PARAMPUR.laz...
+[Ingestion] Filtering 209311SAJOI_209312PARAMPUR.laz (SOR)...
+[Ingestion] Reading 209450Kakrahiya_209475allaudinpur.laz...
+[Ingestion] Filtering 209450Kakrahiya_209475allaudinpur.laz (SOR)...
+[Ingestion] Reading RF_209183Pure.laz...
+[Ingestion] Filtering RF_209183Pure.laz (SOR)...
+[Ingestion] Reading 118118_Dariyapur_POINT CLOUD.laz...
+[Ingestion] Filtering 118118_Dariyapur_POINT CLOUD.laz (SOR)...
+[Ingestion] Reading 209532kuruhua_209533mudhadey_209534saraydengrikalan_209535tarapur.laz...
+[Ingestion] Filtering 209532kuruhua_209533mudhadey_209534saraydengrikalan_209535tarapur.laz (SOR)...
+[Ingestion] Found 8 source files.
+[Ingestion] multiprocessing.pool.RemoteTraceback: 
+[Ingestion] """
+[Ingestion] Traceback (most recent call last):
+[Ingestion]   File "E:\DTM\Data\GodTier\ingest_data_full_scale.py", line 49, in process_laz
+[Ingestion]     print(f"\u2705 Ingested {las_path.stem} -> {len(points)} to {np.sum(mask)} pts")
+[Ingestion]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Ingestion]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Ingestion] UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+[Ingestion] 
+[Ingestion] During handling of the above exception, another exception occurred:
+[Ingestion] 
+[Ingestion] Traceback (most recent call last):
+[Ingestion]   File "E:\DTM\Data\GodTier\ingest_data_full_scale.py", line 65, in worker_task
+[Ingestion]     for f in extracted: process_laz(f)
+[Ingestion]   File "E:\DTM\Data\GodTier\ingest_data_full_scale.py", line 52, in process_laz
+[Ingestion]     print(f"\u274c Error {las_path.name}: {e}")
+[Ingestion]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Ingestion]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Ingestion] UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+[Ingestion] 
+[Ingestion] During handling of the above exception, another exception occurred:
+[Ingestion] 
+[Ingestion] Traceback (most recent call last):
+[Ingestion]   File "C:\Users\user\anaconda3\envs\godtier\lib\multiprocessing\pool.py", line 125, in worker
+[Ingestion]     result = (True, func(*args, **kwds))
+[Ingestion]   File "C:\Users\user\anaconda3\envs\godtier\lib\multiprocessing\pool.py", line 48, in mapstar
+[Ingestion]     return list(map(*args))
+[Ingestion]   File "E:\DTM\Data\GodTier\ingest_data_full_scale.py", line 67, in worker_task
+[Ingestion]     print(f"\u274c Zip Error {file_path}:")
+[Ingestion]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Ingestion]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Ingestion] UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+[Ingestion] """
+[Ingestion] 
+[Ingestion] The above exception was the direct cause of the following exception:
+[Ingestion] 
+[Ingestion] Traceback (most recent call last):
+[Ingestion]   File "E:\DTM\Data\GodTier\ingest_data_full_scale.py", line 82, in <module>
+[Ingestion]     pool.map(worker_task, files)
+[Ingestion]   File "C:\Users\user\anaconda3\envs\godtier\lib\multiprocessing\pool.py", line 367, in map
+[Ingestion]     return self._map_async(func, iterable, mapstar, chunksize).get()
+[Ingestion]   File "C:\Users\user\anaconda3\envs\godtier\lib\multiprocessing\pool.py", line 774, in get
+[Ingestion]     raise self._value
+[Ingestion] UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+2026-02-05 15:22:52,560 [INFO] ❌ Ingestion FAILED (Code 1)
+2026-02-05 15:22:52,560 [INFO] 
+🚀 STARTING: Graph Build
+[Graph Build] Graphing: 118118_Dariyapur_POINT CLOUD.laz
+[Graph Build] Traceback (most recent call last):
+[Graph Build]   File "E:\DTM\Data\GodTier\process_graph_full_scale.py", line 48, in build_giant_graph
+[Graph Build]     print(f"\u2705 Saved: {out_path.name}")
+[Graph Build]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Graph Build]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Graph Build] UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+[Graph Build] 
+[Graph Build] During handling of the above exception, another exception occurred:
+[Graph Build] 
+[Graph Build] Traceback (most recent call last):
+[Graph Build]   File "E:\DTM\Data\GodTier\process_graph_full_scale.py", line 55, in <module>
+[Graph Build]     for f in files: build_giant_graph(f)
+[Graph Build]   File "E:\DTM\Data\GodTier\process_graph_full_scale.py", line 50, in build_giant_graph
+[Graph Build]     print(f"\u274c Failed {laz_path.name}:")
+[Graph Build]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Graph Build]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Graph Build] UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+2026-02-05 15:25:17,657 [INFO] ❌ Graph Build FAILED (Code 1)
+2026-02-05 15:25:17,657 [INFO] 
+🚀 STARTING: Training
+2026-02-05 15:25:17,677 [INFO] ✅ Generated Training Script: train_flood_gnn_full.py
+[Training] Traceback (most recent call last):
+[Training]   File "E:\DTM\Data\GodTier\train_flood_gnn_full.py", line 53, in <module>
+[Training]     train_god_tier()
+[Training]   File "E:\DTM\Data\GodTier\train_flood_gnn_full.py", line 15, in train_god_tier
+[Training]     print(f"\U0001f680 Training on {DEVICE}...")
+[Training]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Training]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Training] UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 0: character maps to <undefined>
+2026-02-05 15:25:24,252 [INFO] ❌ Training FAILED (Code 1)
+2026-02-05 15:25:24,252 [INFO] 
+🚀 STARTING: Export
+2026-02-05 15:25:24,262 [INFO] ✅ Generated Export Script: export_predictions_full.py
+[Export] Traceback (most recent call last):
+[Export]   File "E:\DTM\Data\GodTier\export_predictions_full.py", line 47, in <module>
+[Export]     export_predictions()
+[Export]   File "E:\DTM\Data\GodTier\export_predictions_full.py", line 12, in export_predictions
+[Export]     print("\U0001f680 Exporting Inference Results...")
+[Export]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Export]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Export] UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 0: character maps to <undefined>
+2026-02-05 15:25:30,788 [INFO] ❌ Export FAILED (Code 1)
+2026-02-05 15:25:30,788 [INFO] 
+🚀 STARTING: Visualization
+2026-02-05 15:25:30,788 [INFO] ✅ Generated Vis Script: vis_cinematic_heatmap.py
+[Visualization] Traceback (most recent call last):
+[Visualization]   File "E:\DTM\Data\GodTier\vis_cinematic_heatmap.py", line 130, in <module>
+[Visualization]     run_vis()
+[Visualization]   File "E:\DTM\Data\GodTier\vis_cinematic_heatmap.py", line 13, in run_vis
+[Visualization]     print("\U0001f680 Rendering Hollywood-Grade Digital Twin...")
+[Visualization]   File "C:\Users\user\anaconda3\envs\godtier\lib\encodings\cp1252.py", line 19, in encode
+[Visualization]     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[Visualization] UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 0: character maps to <undefined>
+2026-02-05 15:25:32,644 [INFO] ❌ Visualization FAILED (Code 1)
+2026-02-05 15:25:32,644 [INFO] 
+🎉 MISSION COMPLETE.
+2026-02-05 15:42:42,355 [INFO] [INIT] GOD-TIER STATION INITIALIZED
+2026-02-05 15:42:42,355 [INFO] Logging active: mission_control.log
+2026-02-05 15:42:42,355 [INFO] 
+[START] Ingestion
+[Ingestion] ⏩ Skipping 209266NAGEPUR.laz (Exists)
+[Ingestion] ⏩ Skipping 209311SAJOI_209312PARAMPUR.laz (Exists)
+[Ingestion] ⏩ Skipping 209450Kakrahiya_209475allaudinpur.laz (Exists)
+[Ingestion] ⏩ Skipping RF_209183Pure.laz (Exists)
+[Ingestion] Reading 209183Pure.laz...
+[Ingestion] Filtering 209183Pure.laz (SOR)...
+[Ingestion] ✅ Ingested 209183Pure -> 77258503 to 76384355 pts
+[Ingestion] ⏩ Skipping 209532kuruhua_209533mudhadey_209534saraydengrikalan_209535tarapur.laz (Exists)
+[Ingestion] ⏩ Skipping 118118_Dariyapur_POINT CLOUD.laz (Exists)
+[Ingestion] Reading 118125_devipura urf Dhanna Nagla_POINT CLOUD.laz...
+[Ingestion] Filtering 118125_devipura urf Dhanna Nagla_POINT CLOUD.laz (SOR)...
+[Ingestion] ✅ Ingested 118125_devipura urf Dhanna Nagla_POINT CLOUD -> 29686646 to 29564603 pts
+[Ingestion] Reading 118129_Manjhola Khurd_POINT CLOUD.laz...
+[Ingestion] Filtering 118129_Manjhola Khurd_POINT CLOUD.laz (SOR)...
+[Ingestion] ✅ Ingested 118129_Manjhola Khurd_POINT CLOUD -> 30529047 to 30402822 pts
+[Ingestion] ⏩ Skipping 209400MANIKPUR_209399JAYAPUR.laz (Exists)
+[Ingestion] ⏩ Skipping 209190Bhorkala_209170Purebairiyar.laz (Exists)
+[Ingestion] Found 8 source files.
+2026-02-05 15:55:16,353 [INFO] [OK] Ingestion SUCCESS
+2026-02-05 15:55:16,369 [INFO] 
+[START] Graph Build
+2026-02-06 15:16:30,326 [INFO] [INIT] GOD-TIER STATION INITIALIZED
+2026-02-06 15:16:30,326 [INFO] Logging active: mission_control.log
+2026-02-06 15:16:30,326 [INFO] 
+[START] Ingestion
+[Ingestion] ⏩ Skipping 209400MANIKPUR_209399JAYAPUR.laz (Exists)
+[Ingestion] ⏩ Skipping 209190Bhorkala_209170Purebairiyar.laz (Exists)
+[Ingestion] ⏩ Skipping 209450Kakrahiya_209475allaudinpur.laz (Exists)
+[Ingestion] ⏩ Skipping RF_209183Pure.laz (Exists)
+[Ingestion] ⏩ Skipping 209183Pure.laz (Exists)
+[Ingestion] ⏩ Skipping 209532kuruhua_209533mudhadey_209534saraydengrikalan_209535tarapur.laz (Exists)
+[Ingestion] ⏩ Skipping 118118_Dariyapur_POINT CLOUD.laz (Exists)
+[Ingestion] ⏩ Skipping 118125_devipura urf Dhanna Nagla_POINT CLOUD.laz (Exists)
+[Ingestion] ⏩ Skipping 118129_Manjhola Khurd_POINT CLOUD.laz (Exists)
+[Ingestion] ⏩ Skipping 209266NAGEPUR.laz (Exists)
+[Ingestion] ⏩ Skipping 209311SAJOI_209312PARAMPUR.laz (Exists)
+[Ingestion] Found 8 source files.
+2026-02-06 15:28:47,445 [INFO] [OK] Ingestion SUCCESS
+2026-02-06 15:28:47,447 [INFO] 
+[START] Graph Build

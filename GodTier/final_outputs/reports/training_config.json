@@ -1,0 +1,23 @@
+{
+  "BASE_DIR": "E:\\DTM\\Data\\GodTier\\Processed_Data\\GodTier_V2\\Graphs_With_Flood",
+  "OUTPUT_DIR": "final_outputs",
+  "CHECKPOINT_DIR": "final_outputs\\checkpoints",
+  "VIS_DIR": "final_outputs\\visualizations",
+  "METRICS_DIR": "final_outputs\\metrics",
+  "REPORTS_DIR": "final_outputs\\reports",
+  "DEVICE": "cuda",
+  "NUM_EPOCHS": 100,
+  "BATCH_SIZE": 4096,
+  "SUBGRAPH_SIZE": 50000,
+  "ACCUMULATION_STEPS": 4,
+  "LEARNING_RATE": 0.001,
+  "WEIGHT_DECAY": 1e-05,
+  "HIDDEN_DIM": 64,
+  "NUM_LAYERS": 3,
+  "DROPOUT": 0.1,
+  "DEPTH_WEIGHT": 1.0,
+  "VELOCITY_WEIGHT": 0.5,
+  "CHECKPOINT_INTERVAL": 5,
+  "VALIDATION_SAMPLES": 10000,
+  "RANDOM_SEED": 42
+}

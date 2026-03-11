@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editor/system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large datasets and binary artifacts
+**/*.las
+**/*.laz
+**/*.tif
+**/*.tiff
+**/*.ovr
+**/*.zip
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.gpkg
+**/*.shp
+**/*.shx
+**/*.dbf
+**/*.cpg
+**/*.gif
+**/*.mp4
+
+# Generated / processed heavy data folders
+**/Processed_Data/
+**/Point-Cloud/
+**/Training Data Set ORI & SHP File/
+**/OutPut Testing ORI/

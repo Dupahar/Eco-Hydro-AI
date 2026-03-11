@@ -1,0 +1,13 @@
+{
+  "villageName": "118125_devipura_urf_Dhanna_Nagla",
+  "surveyId": "118125",
+  "dataSource": "SVAMITVA Program",
+  "modelAccuracy": "3.3cm MAE",
+  "terrainResolution": "5.0m",
+  "totalNodes": 20100,
+  "floodStatistics": {
+    "maxDepth": 2.817052580180921,
+    "meanDepth": 0.6693109280986373,
+    "floodedPercent": 0.03482587064676617
+  }
+}
